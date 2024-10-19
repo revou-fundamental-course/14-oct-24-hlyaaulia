@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #f8f8f8; 
+        }
+
+        ul {
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            list-style-type: none;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid black;
+            border-radius: 6px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        a:hover {
+            color: palevioletred;
+        }
+        li:hover {
+            background-color: powderblue;
+        }
+        .utama {
+            padding: 10px;
+        }
+        .utama h1 {
+            font-size: 35px;
+        }
+        .spanutama {
+            color: rgb(95, 67, 130);
+        }
+        div.dua {
+            padding: 50px;
+            width: 600px;
+            height: 200px;
+        }
+        div.gambar {
+            margin: 5px;
+            border-radius: 100px;
+            float: left;
+            width: 180px;
+        }
+        div.gambar img {
+            border-radius: 100px;
+        }
+        div.kota {
+            justify-content: center;
+            align-items: center;
+            padding: 1px;
+        }
+        div.tiga{  
+            padding: 10px;
+            margin: 20px;
+        }
+        div.apaaja{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            width: 1000px;
+
+        }
+        div.formulir-dua{
+            border: 1px solid black;
+            width: 400px;
+            margin:10px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="img/Logi.png" alt="Revou" height="50" width="50">
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Our Profile</a></li>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Message Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="utama">
+        <hr style="color: rgb(152, 152, 152);">
+        <h1>Hi User , <span class="spanutama">Welcome to Welcome Website </span></h1>
+        <p>Ini adalah website latihan pertama</p>
+        <img src="img/revoudua.png" alt="">
+    </div>
+    <hr style="color: rgb(152, 152, 152); padding: 1px;">
+   
+    <div class="dua">
+        <h1>Our Headquarter</h1>
+        <div class="gambar">
+            <img src="img/jakarta.jpg" alt="Jakarta" height="100px" width="100px">
+            <div class="kota">
+                <p>Jakarta</p>
+            </div>
+        </div>
+        <div class="gambar">
+            <img src="img/bandung.jpg" alt="" height="100px" width="100px">
+            <div class="kota">
+                <p>Bandung</p>
+            </div>
+        </div>
+        <div class="gambar">
+            <img src="img/surabaya.jpg" alt="" height="100px" width="100px">
+            <div class="kota">
+                <p>Surabaya</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="tiga">
+        <h1>Message us</h1>
+        <div class="apaaja">
+            <div class="fomulir" style="margin: 10px;">
+                <form action="" method="post">
+                    <p>
+                        <label for="">Nama :</label>
+                        <input type="text" name="nama" placeholder="isikan nama">
+                    </p>
+                    <p>
+                        <label for="">Tanggal Lahir :</label>
+                        <input type="date" name="tanggallahir" placeholder="tanggal-lahir">
+                    </p>
+                    <p>
+                        <label for="">Jenis Kelamin :</label>
+                        <label for=""><input type="radio" value="Laki-laki">Laki-laki</label>
+                        <label for=""><input type="radio" value="Perempuan">Perempuan</label>
+                    </p>
+                    <p>
+                        <label for="">Pesan :</label>
+                <textarea name="" id=""></textarea>
+            </p>
+            <button>Submit</button>
+        </form>
+    </div>
+    <div class="formulir-dua">
+        <p>Curren time : <span>Fri Jun 17 2022 11"27:28 GMT +0100</span></p>
+        <P>nama        : <span>Hilya Aulianti</span></P>
+        <p>Tanggal Lahir: <span>01/11/1995</span></p>
+        <P>Jenis Kelamin : <span> Perempuan</span></P>
+        <p>Pesan : <span>Lagi Belajar buat Website</span></p>
+    </div>
+</div>
+    </div>
+</body>
+</html>
